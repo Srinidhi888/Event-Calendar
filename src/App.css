@@ -1,0 +1,119 @@
+.app-bg {
+  padding: 20px;
+  display: flex;
+}
+.combine-bg {
+  width: 40rem;
+}
+.cal-bg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; 
+  
+}
+.input-style {
+  height: 35px;
+  width: 25rem;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding-left: 5px;
+}
+.event-bg {
+  margin-top: 20px;
+  padding: 20px;
+  width: 40rem;
+}
+.cal-bg button {
+  border: none;
+  height: 35px;
+  width: 120px;
+  color: white;
+  border-radius: 5px;
+  background-color: #3da8dd;
+}
+.date-head {
+  font-size: 24px;
+}
+.btn-previous {
+  margin-right: 10px;
+}
+.days-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1px;
+  background-color: #eee;
+}
+.date-names {
+  background-color: white;
+  padding: 10px; 
+  text-align: center;
+}
+.dates-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1px;
+  background-color: #eee;
+}
+.col-change {
+  padding: 10px;
+  min-height: 100px;
+}
+.start-time {
+  margin-right: 10px;
+  height: 30px;
+  width: 80px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.end-time {
+  margin-right: 10px;
+  height: 30px;
+  width: 80px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom : 10px;
+  margin-top: 10px;
+}
+.btn-events {
+  height: 35px;
+  width: 120px;
+  border-radius: 5px;
+  border: none;
+  background-color: #3da8dd;
+  color: white;
+  margin-bottom: 20px;
+}
+.delete-btn {
+  background-color: transparent;
+  border: none;
+}
+.icon-delete {
+  font-size: 20px;
+}
+.icon-edit {
+  margin-right: 10px;
+  background-color: transparent;
+  border: none;
+}
+.time-style{
+  margin-left: 30px;
+}
+.event-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: lavender;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.day-events {
+  background-color: lavenderblush;
+  padding: 2px 5px;
+  margin-bottom: 2px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+  
